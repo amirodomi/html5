@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="fa">
+
+<head>
+    <title>بیماری کرونا - نحوه انتقال</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        * {
+            box-sizing: border-box;
+            direction: rtl;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+        }
+
+        nav a {
+            line-height: 2rem;
+        }
+
+        /* Style the header */
+        header {
+            /* set the base value if bg-img fail to loaded */
+            background-color: #666;
+
+            background-image: url('../img/bg.jpeg');
+            background-repeat: no-repeat;
+            /* background-attachment: fixed; */
+            background-size: cover;
+
+            padding: 20px;
+            text-align: center;
+            font-size: 35px;
+            color: white;
+        }
+
+        /* Container for flexboxes */
+        section {
+            display: -webkit-flex;
+            display: flex;
+        }
+
+        /* Style the navigation menu */
+        nav {
+            -webkit-flex: 1;
+            -ms-flex: 1;
+            flex: 1;
+            background: #ccc;
+            padding: 20px;
+        }
+
+        /* Style the list inside the menu */
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        /* Style the content */
+        article {
+            -webkit-flex: 4;
+            -ms-flex: 4;
+            flex: 4;
+            background-color: #f1f1f1;
+            padding: 20px;
+        }
+
+        /* Style the footer */
+        footer {
+            background: linear-gradient(to bottom, #912024 85%, #534f4b 0%);
+            padding: 10px;
+            text-align: center;
+            color: white;
+        }
+
+        footer p,
+        header {
+            text-shadow: 1px 1px 2px black;
+        }
+
+        .center {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 100%;
+        }
+
+        /* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+        @media (max-width: 600px) {
+            section {
+                -webkit-flex-direction: column;
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h2>COVID-19</h2>
+    </header>
+
+    <section>
+        <nav>
+            <ul>
+                <li><a href="../index.html">صفحه نخست</a>
+                    <hr><br></li>
+
+                <li><a href="1.html"> انواع و علائم</a></li>
+                <li><a href="3.html"> آخرین آمار کرونا در جهان</a></li>
+            </ul>
+        </nav>
+
+        <article>
+            <img class="center" src="../img/Virusprofile.gif"
+                alt="نحوه انتقال">
+            <h1>نحوه انتقال</h1>
+            <p>
+                بسته به نوع کروناویروس، روش‌های انتقال آن متفاوت است. در برخی از موارد روش‌های انتقال بیماری از انسان به
+                انسان شبیه بیماری آنفلوانزا از طریق سرفه و عطسه است. با این حال احتمال انتقال بیماری در فضای باز بسیار
+                محدود بوده و موارد انتقال انسان به انسان در مواردی رخ داده‌است که افراد به مدت طولانی در فضای بسته در
+                کنار فرد بیمار بوده‌اند مانند افرادی که در بیمارستان‌ها با بیماران در ارتباط هستند. هنوز مشخص نیست که
+                این بیماری نخستین بار از طریق جانوران به انسان منتقل شده‌است یا از طریق سطوح آلوده به ویروس.
+                اگرچه تلاش‌های بسیاری برای تولید واکسن این ویروس انجام شده‌است، اما هنوز واکسن یا داروی مخصوصِ ضدِ
+                ویروسی برای ریشه‌کن کردن؛ درمان قطعی، جلوگیری یا مقابله با عفونت‌های ناشی از کروناویروس به‌طور عام وجود
+                ندارد.
+            </p>
+
+            <br>
+
+            <img class="center" src="../img/spreading.gif"
+                alt="نحوه انتقال">
+
+            <br>
+
+        </article>
+    </section>
+
+
+    <footer>
+        <p>Ali Zand © 2020</p>
+    </footer>
+
+</body>
+
+</html>
+
+<!--Made with ❤️ & ☕ in SHZ @ summer 1399-->

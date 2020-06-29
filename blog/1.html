@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="fa">
+
+<head>
+    <title>بیماری کرونا - وبلاگ</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        * {
+            box-sizing: border-box;
+            direction: rtl;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+        }
+
+        nav a {
+            line-height: 2rem;
+        }
+
+        /* Style the header */
+        header {
+            /* set the base value if bg-img fail to loaded */
+            background-color: #666;
+
+            background-image: url('../img/bg.jpeg');
+            background-repeat: no-repeat;
+            /* background-attachment: fixed; */
+            background-size: cover;
+
+            padding: 20px;
+            text-align: center;
+            font-size: 35px;
+            color: white;
+        }
+
+        /* Container for flexboxes */
+        section {
+            display: -webkit-flex;
+            display: flex;
+        }
+
+        /* Style the navigation menu */
+        nav {
+            -webkit-flex: 1;
+            -ms-flex: 1;
+            flex: 1;
+            background: #ccc;
+            padding: 20px;
+        }
+
+        /* Style the list inside the menu */
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        /* Style the content */
+        article {
+            -webkit-flex: 4;
+            -ms-flex: 4;
+            flex: 4;
+            background-color: #f1f1f1;
+            padding: 20px;
+        }
+
+        /* Style the footer */
+        footer {
+            background: linear-gradient(to bottom, #912024 85%, #534f4b 0%);        
+            padding: 10px;
+            text-align: center;
+            color: white;
+        }
+
+        footer p,
+        header {
+            text-shadow: 1px 1px 2px black;
+        }
+
+        header h2 {
+            margin-bottom: 0em;
+        }
+
+        header div {
+            margin-bottom: 0.83em;
+        }
+
+        article ul {
+            list-style-type: "— ";
+            background: #ff9999;
+            padding: 7px;
+        }
+
+        article ul li {
+            background: #cce5ff;
+            margin: 7px;
+            padding: 7px;
+        }
+
+        figure {
+            border: 1px white solid;
+            margin: 0 auto;
+        }
+
+        figcaption {
+            background-color: #334e6b;
+            color: white;
+            font-style: italic;
+            padding: 5px;
+            margin: 0 auto;
+        }
+
+        /* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+        @media (max-width: 600px) {
+            section {
+                -webkit-flex-direction: column;
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h2>COVID-19</h2>
+        <hr style="width: 10%;">
+        <div>آخرین مقالات</div>
+    </header>
+
+    <section>
+        <nav>
+            <ul>
+                <li><a href="../index.html">صفحه نخست</a>
+                    <hr><br></li>
+
+                <li><a href="../pages/1.html"> انواع و علائم</a></li>
+                <li><a href="../pages/2.html"> نحوه انتقال کرونا ویروس</a></li>
+                <li><a href="../pages/3.html"> آخرین آمار کرونا در جهان</a></li>
+            </ul>
+        </nav>
+
+        <article>
+            <h1>پر خطر ترین افراد در معرض کرونا چه کسانی هستند؟</h1>
+            <p>
+                همچنان سالمندان و افراد مبتلا به بیماری‌های زمینه‌ای در معرض ریسک بالا ابتلاء به نوع شدید این بیماری
+                هستند.
+                <br><br>
+                «رابرت ردفیلد»، سرپرست تیم تحقیق، در این باره می‌گوید: «تشخیص اینکه چه افرادی بیش از سایرین در معرض ریسک
+                بالا ابتلاء به بیماری کووید ۱۹ هستند می‌تواند به افراد، خانواده‌های شأن و جامعه شأن در اتخاذ بهترین
+                تصمیمات کمک کند.»
+                <br><br>
+                قبلاً این مرکز اعلام کرده بود که افراد بالا ۶۵ سال در معرض ریسک بالا ابتلاء به نوع شدید بیماری هستند اما
+                حال اعلام می‌شود که خطر این بیماری در بین افراد بزرگسال براساس سن بیشتر می‌شود و تنها به افراد بالا ۶۵
+                سال محدود نمی‌شود.
+                <br><br>
+                فهرست مشکلات پزشکی زمینه‌ای که خطر بیماری کووید ۱۹ شدید را افزایش می‌دهد به ترتیب زیر بسط و گسترش یافته
+                است:
+
+            <ul>
+                <li>چاقی</li>
+                <li>دیابت نوع۲</li>
+                <li>بیماری مزمن کلیوی</li>
+                <li>بیماری مزمن انسداد ریه</li>
+                <li>بیماری سلولی داسی شکل</li>
+                <li>سیستم ایمنی ضعیف ناشی از پیوند عضو</li>
+                <li>مشکلات جدی قلبی نظیر نارسایی قلبی، بیماری عروق کرونر یا کاردیومیوپاتی</li>
+            </ul>
+
+            تغییرات این فهرست حاکی از این است که بیماران بیشتری در معرض ریسک بالا بیماری کووید ۱۹ قرار دارند.
+            <br><br>
+            محققان هشدار می‌دهند هرچقدر بیماری‌های زمینه‌ای افراد بیشتر باشد خطر ابتلاء به بیماری در آنها بیشتر
+            خواهد بود.
+            <br><br>
+            سایر مشکلات افزایش دهنده ریسک بیماری که به این فهرست اضافه می‌شوند عبارتند از: بیماری آسم، فشارخون بالا،
+            مشکلات نورولوژیکی نظیر زوال عقل، بیماری مغزی عروقی نظیر سکته مغزی، و بارداری.
+            </p>
+            <p><br><br></p>
+
+            <table style="width:100%;text-align: center ;table-layout: fixed;">
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td><a style="text-decoration: unset;" href="2.html">
+                            <figure>
+                                <img src="../img/2.jpeg" alt="میوه های تابستانی" style="width:202px;height:202px;">
+                                <figcaption> کدام میوه های تابستانی به ما در شرایط همه گیری ویروس کرونا کمک می کند؟
+                                </figcaption>
+                            </figure>
+                        </a></td>
+                    <td><a href="2.html">بعدی »»»</a></td>
+                </tr>
+            </table>
+
+            <br>
+        </article>
+    </section>
+
+
+    <footer>
+        <p>Ali Zand © 2020</p>
+    </footer>
+
+</body>
+
+</html>
+
+<!--Made with ❤️ & ☕ in SHZ @ summer 1399-->
